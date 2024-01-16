@@ -1,0 +1,118 @@
+.title-about-us {
+  text-align: center;
+  margin-top: 150px;
+  color: #fff;
+}
+
+.about-web {
+  margin-bottom: 20px;
+}
+.about-web .title-about-web {
+  text-align: center;
+  margin: 50px auto;
+  color: #fff;
+}
+
+.control-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+@media (max-width: 499px) {
+  .control-card {
+    display: grid;
+  }
+}
+.control-card .card {
+  margin-top: 30px;
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.control-card .card .avt {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 3px rgb(94, 164, 180) solid;
+  margin-top: 10px;
+  z-index: 2;
+}
+.control-card .card .cover-img {
+  width: 100%;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+.control-card .card .job-position {
+  color: #00008b;
+}
+.control-card .card .social-conect {
+  display: flex;
+  gap: 5px 22px;
+  margin: 10px auto;
+}
+.control-card .card .social-conect i {
+  font-size: 30px;
+  color: #333;
+}
+.control-card .card .skill {
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+}
+.control-card .card .skill h6 {
+  text-align: start;
+}
+.control-card .card .skill .skill-item-all {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.control-card .card .skill .skill-item-all .skill-item {
+  margin-inline: 2px;
+  font-size: 13px;
+  padding: 2px 5px;
+  margin-bottom: 7px;
+  margin-right: 4px;
+  border: 1px rgb(94, 164, 180) solid;
+}
+
+.control-web {
+  margin-inline: 10px;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media (max-width: 499px) {
+  .control-web {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.control-web .control-about-web {
+  color: #fff;
+  width: 45%;
+}
+.control-web .control-about-web h6{
+  text-align: left;
+}
+
+@media (max-width: 499px) {
+  .control-web .control-about-web {
+    width: 100%;
+    text-align: center;
+  }
+}
+.control-web .control-about-web h4 {
+  text-align: center;
+}/*# sourceMappingURL=about-us.css.map */

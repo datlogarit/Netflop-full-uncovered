@@ -1,0 +1,90 @@
+main{
+    display: flex;
+    flex-direction: row;
+    padding-top: 130px;
+
+}
+.wrapper-all-cpn{
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    margin-top: 15px;
+}
+.wrapper-cpn{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px rgb(36, 42, 67) solid; */
+    background-color: #242d33;
+    /* box-shadow: 4px 4px 10px 5px rgba(227, 216, 3, .2); */
+    border-radius: 6px;
+    margin: 15px auto;
+}
+.wrapper-cpn a{
+    color: rgb(227, 216, 3);
+}
+.wrapper-cpn a:hover{
+    color: white;
+}
+.wrapper-cpn img{
+    height: 100%;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.wrapper-cpn-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    color: #ddd;
+}
+.wrapper-cpn-text-name p{
+    font-size: 13px;
+}
+.suggest-content {
+    width: 20%;
+    height: fit-content;
+    padding: 20px 20px;
+    border-radius: 3px;
+    background-color: #242d33;
+    color: #ddd;
+    margin: 30px 20px 0px 50px;
+}
+
+.suggest-content .menu-option {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px hsl(57, 97%, 45%) solid;
+
+}
+
+.suggest-content .menu-option h6 {
+    font-size: 30px;
+}
+
+.suggest-content .menu-option i {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.suggest-content .option {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.suggest-content .option a {
+    color: #ddd;
+    margin-top: 10px;
+}
+
+.suggest-content .option a:hover {
+    color: hsl(57, 97%, 45%);
+}

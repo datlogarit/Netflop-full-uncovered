@@ -1,0 +1,63 @@
+
+.generic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    background-color: #000000;
+    height: 100vh;
+}
+
+.generic .logo img{
+    margin: 40px auto;
+    max-height: 110px;
+}
+.generic .infor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.generic .infor h5{
+    color:#a7a7a7;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.generic .infor h1{
+    font-size: 40px;
+}
+.generic .infor button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px var(--citrine) solid;
+    padding: 12px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.generic .infor button:hover{
+    background: var(--citrine);
+	color: var(--xiketic);
+	/* border: 1px #e2d703 solid; */
+}
+.generic .infor a{
+    color: #fff;
+}
+
+.generic .infor h4:hover{
+    text-decoration: underline;
+}
+@media (max-width:500px) {
+    .generic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .generic .infor h1{
+        font-size: 30px;
+        color: #e2d703;
+    }
+    .generic .infor h5{
+        font-size: 13px;
+    }
+}
